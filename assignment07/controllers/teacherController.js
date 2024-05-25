@@ -47,7 +47,7 @@ updateTeacher = async (req, res) => {
   }
 };
 
-// Delete a teacher
+
 deleteTeacher = async (req, res) => {
   try {
     const teacher = await Teacher.findByIdAndRemove(req.params.id);
